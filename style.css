@@ -1,0 +1,46 @@
+body{
+   /* The the back ground image used and provided a color for the whole body text */
+    padding: 0;
+    background-image: url("./rocket.jpg"); 
+    color: blanchedalmond;
+}
+/* uat id pushed left and given green color */
+#uat{
+    margin-left: 500px;
+    color:rgb(68, 255, 0) 
+    
+}
+/* image tag UAT image minimized to smaller size */
+img{
+    width: 150px;
+}
+/* A paragraph displayed left orange color,style and font weight */
+#welcomeText{
+    margin-left: 50vh;
+    color: rgb(156, 156, 62);
+    font-style: italic;
+   font-weight:bold;
+}
+/* All buttons and inputs provided curvy style */
+input, button{
+    border-radius: 100px;
+}
+/* on hover my text color inside the buttun will turn green */
+button:hover{  
+    color: green;
+  
+}
+/* Top div displayed flex and auto justified space between the items. */
+.topdiv{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(119, 119, 37);
+    width: 500rem;
+    height: 500em;
+    border-radius: 500px;
+    font-weight: 500px;
+    font-size: 1.6em;
+}
